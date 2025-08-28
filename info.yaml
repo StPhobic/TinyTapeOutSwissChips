@@ -9,8 +9,8 @@ project:     # Set this to the ID of your Wokwi project (the number from the pro
 
   # How many tiles your design occupies? A single tile is about 167x108 uM.
   tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
-
-  top_module:  "tt_um_alif_single_channel"
+  # tt_um_wokwi_434917506576906241, tt_um_alif_single_channel
+  top_module:  "tt_um_wokwi_434917506576906241"
 
   source_files:
     - "project.v"
