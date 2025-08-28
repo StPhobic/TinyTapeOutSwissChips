@@ -1,10 +1,11 @@
 /*
  * Copyright (c) 2024 Your Name
  * SPDX-License-Identifier: Apache-2.0
+ * tt_um_alif_single_channel
  */
 `default_nettype none
 
-module tt_um_alif_single_channel (
+module tt_um_wokwi_434917506576906241 (
     input  wire [7:0] ui_in,    // Dedicated inputs
     output wire [7:0] uo_out,   // Dedicated outputs
     input  wire [7:0] uio_in,   // IOs: Input path
