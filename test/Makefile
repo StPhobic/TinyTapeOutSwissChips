@@ -5,7 +5,7 @@
 SIM ?= icarus
 TOPLEVEL_LANG ?= verilog
 SRC_DIR = $(PWD)/../src
-PROJECT_SOURCES = project.v
+PROJECT_SOURCES = project.v alif_single_channel_data_loader.v alif_single_channel_neuron.v alif_single_channel_data_loader.v
 
 ifneq ($(GATES),yes)
 
